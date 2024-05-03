@@ -1,0 +1,72 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Verdana;
+    background-color: #faaf92;
+}
+header{
+    background-color: rgb(15, 1, 1);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 20px;
+    font-size: 1.25rem;
+    transition: 0.5s;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container{
+    width: 90vw;
+    height: 500px;
+    background-image: url(miles.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+.child-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btns{
+color: white;
+font-size: 15px;
+background-color: red;
+padding: 5px;
+position: absolute;
+right: 25px;
+}
+.btns:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.name{
+    position: absolute;
+    display: flex;
+    gap: 600px  ;
+}
